@@ -7,7 +7,7 @@
 VIRTUAL_HOST=<URL DE TU APP>
 VIRTUAL_PORT=<PUERTO DEL DOCKER>
 LET_ENC_HOST=<URL DE TU APP>
-LET_ENC_EMAIL=infra@puelotech.com
+LET_ENC_EMAIL=samu.aaron@hotmail.com
 ```
 ### 3. edite el archivo docker-compose.yml, debe quedar de la siguiente manera
 ```
