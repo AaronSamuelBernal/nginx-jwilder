@@ -5,6 +5,7 @@
 docker network create nginx-proxy
 ```
 2. Inicialice el compose
+
 Si tiene una versión anterior a 1.29.2 (https://docs.docker.com/compose/release-notes/#1292)
 ```
 docker-compose up -d
