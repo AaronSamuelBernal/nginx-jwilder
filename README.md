@@ -1,4 +1,18 @@
 # Rproxy
+## Antes de usar
+1. Cree la red externa
+```
+docker network create nginx-proxy
+```
+2. Inicialice el compose
+Si tiene una versión anterior a 1.29.2 (https://docs.docker.com/compose/release-notes/#1292)
+```
+docker-compose up -d
+```
+Si tiene una versión reciente de docker.
+```
+docker compose up -d
+```
 
 ## Como integrar a tu docker
 ### 1. Genere un archivo .env o edite en caso de ya tenerlo (debe corresponderse con el docker-compose de tu aplicación)
